@@ -43,6 +43,7 @@ function success(position) {
         .then(data => {
             data.forEach(function(psicologo) {
                 const nome = psicologo.nome;
+                const tel = psicologo.tel;
                 const distancia = psicologo.distancia;
                 const imagem = psicologo.imagem;
 
@@ -59,7 +60,7 @@ function success(position) {
                     icon: psicologoIcon
                 }).addTo(map)
                     .bindPopup(`<div class="cardMap"><img class="imgPsicologo" src="${imagem}" alt="Imagem do psicólogo"><br>
-                <h3 class="nomePsicologo">${nome}</h3><br>
+                <h3 class="nomePsicologo">${nome}</h3> <h3 class="telPsi">${tel}</h3>
                 <p><strong>Distância:</strong><br> ${distancia}</p></div>`);
             });
         })

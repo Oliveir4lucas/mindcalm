@@ -55,11 +55,6 @@ h1 {
   }
   /*Botão*/
 
-  .cad, .entrar{
-    font-size: 1.2rem;
-    margin-bottom: -2rem;
-    margin-top: 2rem;
-  }
 
   a{
     color: var(--cor--escura)
@@ -69,16 +64,19 @@ h1 {
   .buttons{
    align-items: center;
    margin-top: 140px;
-   margin-left: 4rem;
-   margin-right: 4rem;
+   margin-left: 2rem;
+   margin-right: 2rem;
    align-items: center;
   }
 
   .entrar, .cad{
+    font-size: 1.2rem;
+    margin-bottom: -2rem;
+    margin-top: 2rem;
     border-radius: 20px;
     border: none;
-    width: 260px;
-    height:38px;
+    width: 300px;
+    height:42px;
     font-size: rem;
     font-weight: 600;
     font-family: urbanist;

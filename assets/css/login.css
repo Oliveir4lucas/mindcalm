@@ -157,6 +157,28 @@ form{
     margin-top: 1.6rem;
   }
 
+  .buttons{
+    align-items: center;
+    margin-left: -1rem;
+   }
+ 
+ 
+   .face, .apple{
+     font-size: 1.2rem;
+     margin-bottom: -2rem;
+     margin-top: 2rem;
+     border-radius: 20px;
+     width: 300px;
+     height:48px;
+     border: 2px solid #ffffff;
+     font-size: rem;
+     font-weight: 600;
+     font-family: urbanist;
+     background-color: transparent;
+     color: white;
+ 
+ }
+
   a{
     color: var(--cor--bgwhite);
 

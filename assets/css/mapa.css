@@ -51,6 +51,7 @@ body{
       justify-content: space-between;
       align-items: center;
       margin: 1em 0 0 0;
+      z-index: 999;
     }
   
    .container4{
@@ -77,7 +78,11 @@ body{
        margin-right: 16px;
        }
   
+
     .container4 .header4{
+      width: 90vw;
+      margin: 1em 0 0 0;
+      z-index: 1000;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -99,6 +104,10 @@ body{
     height: 100vh;
     margin: 0 auto;
     border-radius:5px;
+}
+
+.leaflet-control-container{
+  display: none;
 }
 
 /*Navegação*/

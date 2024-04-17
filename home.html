@@ -32,6 +32,21 @@
             </div>
             <span class="logo">MindCalm</span>
         </div>
+       
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <h2>Como você está se sentindo hoje?</h2>
+                <div class="moods">
+                    <div class="mood-option" data-mood="animado">  <i class="fa-regular fa-face-laugh-beam"></i> Animado</div>
+                    <div class="mood-option" data-mood="feliz"> <i class="fa-regular fa-face-grin-wide"></i> Feliz</div>
+                    <div class="mood-option" data-mood="triste">  <i class="fa-regular fa-face-frown"></i> Triste</div>
+                    <div class="mood-option" data-mood="irritado">  <i class="fa-regular fa-face-angry"></i> Irritado</div>
+                    <div class="mood-option" data-mood="normal"> <i class="fa-regular fa-face-meh"></i>Normal</div>
+                </div>
+            </div>
+        </div>
+    
+    
         <!--Cabeçalho Fim-->
         <div class="texto5">
             <span>Olá, Pedro!</span>
@@ -41,31 +56,31 @@
         <!--Caixas de seleção-->
         <!--Caixas de Humor-->
         <div class="wrap-lista">
-            <div class="wrap-humor1">
+            <div class="wrap-humor" data-mood="animado">
                 <div class="hum">
                     <i class="fa-regular fa-face-laugh-beam"></i>
                 </div>   
             </div>
                <h3>Animado</h3>
-            <div class="wrap-humor2">
+            <div class="wrap-humor" data-mood="feliz">
                 <div class="hum">
                     <i class="fa-regular fa-face-grin-wide"></i>
                 </div> 
             </div>
             <h3>Feliz</h3>
-            <div class="wrap-humor3">
-                <div class="hum">
-                    <i class="fa-regular fa-face-angry"></i>
-                </div> 
-            </div>
-            <h3>Irritado</h3>
-            <div class="wrap-humor4">
+            <div class="wrap-humor" data-mood="triste">
                 <div class="hum">
                     <i class="fa-regular fa-face-frown"></i>
                 </div> 
             </div>
             <h3>Triste</h3>
-            <div class="wrap-humor5">
+            <div class="wrap-humor" data-mood="irritado">
+                <div class="hum">
+                    <i class="fa-regular fa-face-angry"></i>
+                </div> 
+            </div>
+            <h3>Irritado</h3>
+            <div class="wrap-humor" data-mood="normal">
                 <div class="hum">
                     <i class="fa-regular fa-face-meh"></i>
                 </div> 
@@ -94,7 +109,7 @@
         <!--Caixas de Video Fim-->
         <!--Caixas de Poscast-->
         <div class="texto-caixas">
-            <span>Podcast com base em sua preferencia</span>
+            <span>Podcast para ajudar você</span>
         </div>
         <div class="wrap-lista">
             <div class="wrap-podcast"><a href="https://open.spotify.com/episode/3teS8yH1VxtjZgvplsfVnR?si=eecb0f28c2f64a0b" alt="linkSpotify"><img src="/assets/img/podcast1.svg" alt="PodCast Psicolloga"></a>
@@ -123,7 +138,7 @@
         <!--Caixas de seleção Fim-->
         <!--Navegação-->
         <footer class="bottom-navbar">
-            <a href="home">
+            <a href="home.html">
                 <i class="fas fa-home" alt="home"></i>
                 <span>Início</span>
             </a>  <a href="mapa.html">
@@ -145,7 +160,6 @@
         </footer>
         <script src="/assets/js/videos.js"></script>
         <script src="/assets/js/img.js"></script>
-
-
+        <script src="/assets/js/modal.js"></script>
     </body>
     </html>
