@@ -71,7 +71,7 @@ h2 {
 }
 
 .selected {
-  border: 3px solid #5D4966;
+  border: 2px solid var(--cor--hover);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 

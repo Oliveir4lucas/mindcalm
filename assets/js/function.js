@@ -21,3 +21,9 @@ function togglePassword(id) {
         x.type = "password";
     }
 }
+
+document.getElementById("continuarButton").addEventListener("click", function() {
+    // Redireciona para a página home.html quando o botão for clicado
+    window.location.href = "home.html";
+});
+

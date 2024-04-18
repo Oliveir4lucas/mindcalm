@@ -64,6 +64,7 @@ form{
 /*inputs*/
 #email, #pass, #pass-confirm{
     width: 90vw;
+    margin-top: -0.6rem;
   }
 
   /*passo*/
@@ -177,9 +178,6 @@ form{
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.308);
 }
 
-.login-container-lista{
-    margin-top: 2rem;
-}
 
   .lista-login{
       display: flex;

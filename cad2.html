@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Cadastro - Segundo Passo</title>
-    <link rel="stylesheet" href="/assets/css/cad2.css"  media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="/assets/css/cad2.css" media="print" onload="this.media='all'">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -42,8 +42,8 @@
         <!--Formulario-->
         <div class="dados">
         <div class="input-container">
-            <label class="input-label" for="tema" id="tela3" alt="nome-completo">Nome e Sobrenome</label>
-            <input type="text" id="nome">
+            <label class="input-label" for="nomeInput" alt="nome-completo">Nome</label>
+            <input type="text" id="nomeInput">
         </div>
         <div class="input-wrap">
             <div class="input-container">
@@ -54,8 +54,8 @@
                 <label class="input-label" for="genero">Gênero</label>
                 <div class="custom-select">
                     <select id="genero" class="select-selected" placeholder="Selecione seu gênero">
-                        <option value="masculino">Masculino</option>
-                        <option value="feminino">Feminino</option>
+                        <option value="masculino" id="man">Masculino</option>
+                        <option value="feminino" id="F">Feminino</option>
                         <option value="nao_binario">Não binário</option>
                         <option value="outro">Outro</option>
                     </select>
@@ -79,10 +79,13 @@
             </div>
         </div>
     </div>
-        <div class="botao-continuar">
-           <a href="home.html"><input class=cont type="button" value="Continuar" alt="botao-continuar"></a>
-        </div>
+    <div class="botao-continuar">
+        <!-- Alterado para redirecionar para home.html com o nome do usuário como parâmetro na URL -->
+      <button class="cont"><a href="home.html" id="continuarButton" alt="botao-continuar">Continuar</button></a>
+    </div>
         <!--Formulario Fim-->
     </form>
+    <script src="/assets/js/effects.js"></script>
+    <script src="/assets/js/function.js"></script>
 </body>
 </html>

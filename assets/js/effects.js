@@ -1,19 +1,48 @@
-window.addEventListener('load', function() {
-    var preloader = document.querySelector('.preloader');
-    var content = document.querySelector('.content');
+document.addEventListener("DOMContentLoaded", function() {
+    // Pega o nome da URL
+    var url = new URL(window.location.href);
+    // Pega o parâmetro 'nome' da URL
+    var nomeUsuario = url.searchParams.get("nome");
+    // Seleciona o elemento onde o nome do usuário será exibido
+    var nomeUsuarioElement = document.getElementById("nomeUsuario");
+    // Verifica se o nome do usuário não é nulo e atualiza o texto
+    if (nomeUsuario) {
+        nomeUsuarioElement.textContent = nomeUsuario;
+    }
+});
 
-    // Adiciona a classe 'loaded' após o carregamento completo da página
-    preloader.classList.add('loaded');
+    // Aguarda o carregamento completo do DOM
+    document.addEventListener("DOMContentLoaded", function() {
+        // Seleciona o campo de entrada de nome
+        var nomeInput = document.getElementById("nomeInput");
+        // Seleciona o botão de continuar
+        var continuarButton = document.getElementById("continuarButton");
+
+        // Adiciona um evento de escuta para o evento "input"
+        nomeInput.addEventListener("input", function() {
+            // Seleciona o elemento que exibe o nome na tela home
+            var nomeUsuario = document.getElementById("nomeUsuario");
+            // Atualiza o texto do elemento com o valor do campo de entrada de nome
+            nomeUsuario.textContent = nomeInput.value;
+        });
+
+        // Adiciona o nome do usuário como parâmetro na URL ao clicar no botão de continuar
+        continuarButton.addEventListener("click", function() {
+            var nome = nomeInput.value;
+            continuarButton.href = "home.html?nome=" + encodeURIComponent(nome);
+        });
+    });
+
+    document.addEventListener("DOMContentLoaded", function() {
+        // Pega o nome da URL
+        var url = new URL(window.location.href);
+        // Pega o parâmetro 'nome' da URL
+        var nomeUsuario = url.searchParams.get("nome");
+        // Seleciona o elemento onde o nome do usuário será exibido
+        var nomeUsuarioElement = document.getElementById("nomeUsuario");
+        // Verifica se o nome do usuário não é nulo e atualiza o texto
+        if (nomeUsuario) {
+            nomeUsuarioElement.textContent = nomeUsuario;
+        }
+    });
     
-    // Após um tempo de exibição mais longo, oculta o preloader e exibe o conteúdo da página
-    setTimeout(function() {
-        preloader.style.display = 'none'; // Oculta o preloader
-        content.style.display = 'block'; // Exibe o conteúdo da página
-    }, 2000); // Ajuste o tempo de exibição conforme necessário (aqui são 2 segundos)
-});
-
-// Adicionando a classe 'loaded' ao corpo da página após o carregamento completo do documento
-window.addEventListener('load', function() {
-    document.body.classList.add('loaded');
-});
-

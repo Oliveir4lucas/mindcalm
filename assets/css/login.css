@@ -30,24 +30,17 @@ body{
     color: white;
  }
 
- .titulos {
+ .titulos { /*tiulo da pagina*/
     height: 100px;
     display: flex;
     align-items: center; 
     justify-content: center; 
-    margin-top: 20px;
+    margin-top: 18px;
     margin-bottom: 20px;
     height: 45px;
      
       
  }
- 
- .titulos h2 {
-    font-size: 1.6rem;
-    max-width: 100%;
-  
- }
-
 
 
 form{
@@ -59,24 +52,12 @@ form{
 
 }
 
-form{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 100vw;
-    min-height: 100vh;
-}
 .header{
   display: flex;
   justify-content: space-between;
   width: 100vw;
 }
 
-.form .header h2{
-    margin: auto;
-    padding-right: 47.01px;
-    font-weight: 500;
-  }
   form p{
     margin-top: -14px;
     font-size: 1.4rem;
@@ -112,16 +93,7 @@ form{
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.308);
 }
 
-.login-container-lista{
-    margin-top: 2rem;
-}
 
-
-  .lista-login{
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-  }
   .login{
       display: flex;
       align-items: center;
@@ -158,24 +130,25 @@ form{
   }
 
   .buttons{
+    display: flex;
     align-items: center;
-    margin-left: -1rem;
+    flex-direction: column;
+    margin-top: 3.4rem;
+    margin-bottom: 6rem;
    }
  
  
-   .face, .apple{
-     font-size: 1.2rem;
-     margin-bottom: -2rem;
-     margin-top: 2rem;
-     border-radius: 20px;
-     width: 300px;
-     height:48px;
-     border: 2px solid #ffffff;
-     font-size: rem;
-     font-weight: 600;
-     font-family: urbanist;
-     background-color: transparent;
-     color: white;
+   .google, .apple{
+    margin-bottom: 16px;
+    border-radius: 30px;
+    width: 80vw;
+    height: 48px;
+    background-color: transparent;
+    border:2px white solid;
+    color: white;
+    font-size: 1.2rem;
+    font-family: urbanist;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.103);
  
  }
 

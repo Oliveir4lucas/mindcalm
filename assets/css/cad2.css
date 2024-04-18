@@ -172,7 +172,7 @@ form{
     width: 90vw;
   }
 
-  #nome{
+  #nomeInput{
     width: 90vw;
     margin-bottom: 12px;
   }
@@ -187,6 +187,12 @@ form{
   }
   .input-wrap .input-container label:nth-child(1){
     padding-top: 5px;
+  }
+
+  a{
+    text-decoration: none;
+    color: #6B5475;
+    font-weight: 500;
   }
   .botao-continuar{
     margin-left: auto;
@@ -205,6 +211,8 @@ form{
     height: 2rem;
     text-align: center;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.308);
+    color: #6B5475;
+    font-weight:500;
   }
 
   .icone-centralizado {
@@ -216,9 +224,4 @@ form{
     height: 167px;
   }
 
-  .logo-horizontal{
-    font-family: shadows into light two;
-    width: auto;
-    height: auto;
-  }
-
+ 

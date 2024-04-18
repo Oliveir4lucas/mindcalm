@@ -24,7 +24,7 @@ body{
 
  .container {
   text-align: center; 
-  margin-top: 7rem;
+  margin-top: 14rem;
 }
 
  .logo-img {
@@ -65,13 +65,13 @@ h1 {
 
   .buttons{
    align-items: center;
-   margin-top: 140px;
+   margin-top: 16px;
    margin-left: 2rem;
    margin-right: 2rem;
    align-items: center;
   }
 
-  .entrar, .cad{
+  .cont{
     font-size: 1.2rem;
     margin-bottom: -2rem;
     margin-top: 2rem;
@@ -82,14 +82,9 @@ h1 {
     font-size: rem;
     font-weight: 600;
     font-family: urbanist;
-    background-color: white;
-    color: var(--cor--escura);
+    background-color: transparent;
+    color: white;
     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.204);
 }
 
-.cad{
-  background-color: transparent;
-  color: white;
-  border: solid white;
-}
 

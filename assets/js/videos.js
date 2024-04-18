@@ -13,8 +13,8 @@ document.addEventListener("DOMContentLoaded", function() {
             // Cria um elemento iframe
             const iframe = document.createElement('iframe');
             // Define os atributos do iframe
-            iframe.width = '151';
-            iframe.height = '95';
+            iframe.width = '180';
+            iframe.height = '105';
             iframe.src = `https://www.youtube.com/embed/${videoId}`;
             iframe.title = 'YouTube video player';
             iframe.frameBorder = '0';
