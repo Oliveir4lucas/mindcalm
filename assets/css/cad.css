@@ -183,6 +183,7 @@ form{
       display: flex;
       align-items: center;
       justify-content: space-between;
+      margin-bottom: 8px;
   }
   .login-container-lista{
     display: flex;
@@ -195,10 +196,6 @@ form{
     width: 70vw;
     text-align: center;
     font-weight: 500;
-  }
-
-  .logofinal{
- font-family: shadows into light two;
   }
 
   .prox{
@@ -214,5 +211,12 @@ form{
     font-family: urbanist;
     font-weight: 500;
   }
+
+  .logofinal{
+ font-family: shadows into light two;
+ margin-top: -0.1rem;
+  }
+
+ 
 
  

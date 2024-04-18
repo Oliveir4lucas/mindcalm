@@ -27,3 +27,7 @@ document.getElementById("continuarButton").addEventListener("click", function() 
     window.location.href = "home.html";
 });
 
+function mostrarPopup() {
+    alert("Registro salvo com sucesso!");
+}
+

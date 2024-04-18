@@ -28,7 +28,7 @@
         <!--Cabeçalho Fim-->
         <div class="titulos">
         <h1>Diário de emoções</h1> 
-         <p>Como você está se sentindo agora?</p>
+         <p>Registre suas emoções ao longo do dia</p>
     </div>
         <!--Parte superior Fim-->
         <!--Formulario-->
@@ -49,9 +49,8 @@
         
         <!--Humor Fim-->
         <div class="resposta-diaria">
-            <label id="form-diario">Como foi o seu dia?</label>
-            <textarea id="resposta-texto" for="form-diario" placeholder="  Conte como foi seu dia">  Seja bem vindo(a)!</textarea>
-            <button type="submit" class="salvar">Salvar</button>
+            <textarea id="resposta-texto" for="form-diario" placeholder="Como você está se sentindo agora?"></textarea>
+            <button type="submit" class="salvar" onclick="mostrarPopup()">Salvar</button>
             <button class="button-mic" id="butt" alt="microfone">
                 <i class="fa-solid fa-microphone"></i>
             </button>
@@ -84,6 +83,7 @@
         <!--Navegação Fim-->
     </div>
     <script src="/assets/js/events.js"></script>
+    <script src="/assets/js/function.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 </body>
 </html>
