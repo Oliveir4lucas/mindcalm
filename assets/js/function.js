@@ -28,6 +28,5 @@ document.getElementById("continuarButton").addEventListener("click", function() 
 });
 
 function mostrarPopup() {
-    alert("Registro salvo com sucesso!");
+    alert("Registro salvo com sucesso! :)");
 }
-
