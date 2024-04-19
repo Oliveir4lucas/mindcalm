@@ -49,6 +49,7 @@ h2 {
   margin-top: 10px;
 }
 
+
 .moods {
   margin-top: 20px;
   margin-left: 30px;
@@ -80,7 +81,7 @@ iframe{
     border-radius: 15px;
     text-decoration: n;
    }
-
+ 
  .container5{
     color: #000;
     display: flex;
@@ -93,6 +94,19 @@ iframe{
     font-size: 1.2rem;
   
   }
+
+  .notf{
+    color: var(--cor--escura);
+    margin-left: -5rem;
+  }
+
+  .header4 h2{
+    font-family: "Shadows Into Light Two", cursive;
+    font-weight: 600;
+    font-size: 1.4em;
+  }
+
+
   .container5 .informacoes{
     display: flex;
   }
@@ -102,21 +116,22 @@ iframe{
     background-image: url(/assets/icones/avatar.svg);
     border-radius: 100px;
     margin-left: 16px;
-    margin-top: 5px;
-  }
 
-  .notf{
- margin-left: -13rem;
- font-size: 1.4rem;
- color: #5D4966;
   }
 
   .logo{
   color: var(--cor--fundo);
   margin-right: 16px;
-  height: auto;
   }
-  .container5 .header5{
+
+
+  #primeiro{
+    margin-left: 1em;
+    color: var(--cor--escura);
+    font-size: 2em;
+  }
+
+  .container5 .header4{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -138,12 +153,12 @@ iframe{
 
   .wrap-lista{
     display: grid;
-    padding: 1em 0 0 0vw;
+    padding-top: 1em;
     flex-wrap: wrap;
     gap: 1em;
     width: 90vw;
     overflow-x: scroll;
-    margin-top: -2re;
+
   }
 
   .wrap-podcast p {
@@ -158,8 +173,8 @@ iframe{
     display: none;
   }
   .wrap-humor{
-    width: 22vw;
-    height: 26vw;
+    width: 90px;
+    height: 110px;
     border-radius: 15px;
     display: flex;
     justify-content: center;
@@ -181,7 +196,7 @@ iframe{
     color:var(--cor--fundo);
     font-size: 3rem;
     text-align: center;
-    margin-bottom: 1.2rem;
+    margin-bottom: 1.4rem;
   }
 
 
@@ -305,7 +320,4 @@ color: #AA8FB6;
   text-decoration: none;
    color: #fff;
    font-size: 18px;
-     }
- 
-    
-   
+ }
