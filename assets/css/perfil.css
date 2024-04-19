@@ -35,16 +35,36 @@ body{
 .modal-content {
     background-color: #fefefe;
     margin: 15% auto;
+    margin-top: 36vh;
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
     max-width: 400px;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 20px;
+    
 }
 
 .modal-buttons {
-    margin-top: 20px;
+    margin-top: 10px;
+}
+
+.djsair {
+  margin-top: 10px;
+  margin-bottom: -1px;
+  font-family: urbanist;
+  font-size: 1.4rem;
+}
+
+.sim, .nao {
+ border-radius: 16px;
+ border: 2px solid var(--cor--fundo);
+ color: #6B5475;
+ background-color: transparent;
+ width: 80px;
+ height: 30px;
+ font-family: urbanist;
+ font-size: 1.2rem;
 }
 
  h2{
