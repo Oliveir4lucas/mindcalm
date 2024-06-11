@@ -18,6 +18,8 @@ body{
     --cor--hover2: #AA8FB6;
     --cor--bgwhite: #E1E1E1;
     --cor--escura: #6B5475;
+    --cor-preto:black;
+    --cor--branco:white;
  }
 
   /* Estilos para o modal */

@@ -30,3 +30,22 @@ document.getElementById("continuarButton").addEventListener("click", function() 
 function mostrarPopup() {
     alert("Registro salvo com sucesso! :)");
 }
+
+
+function saveName() {
+    const nome = document.getElementById('nomeInput').value;
+    if (nome) {
+        localStorage.setItem('userName', nome);
+        window.location.href = 'home.html';
+    } else {
+        alert('Por favor, insira seu nome.');
+    }
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    const userName = localStorage.getItem('userName');
+    if (userName) {
+        document.getElementById('userNameDisplay').textContent = userName;
+    }
+});
+
