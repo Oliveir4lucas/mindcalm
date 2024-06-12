@@ -76,6 +76,20 @@ h2 {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
+.botao{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.botao-resp{
+  background-color: #9978A7;
+  color: white;
+  border: 0 solid;
+  border-radius: 10px;
+  height: 25px;
+  font-family: urbanist;
+}
 
 iframe{
     border-radius: 15px;
